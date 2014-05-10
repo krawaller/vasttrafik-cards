@@ -2,6 +2,8 @@
 
 Fetch Västtrafik cards data.
 
+[![Build Status](https://img.shields.io/travis/krawaller/vasttrafik-cards/master.svg)](https://travis-ci.org/krawaller/vasttrafik-cards)
+
 ## Installation
 
 via npm:
