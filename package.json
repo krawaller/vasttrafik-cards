@@ -1,0 +1,36 @@
+{
+  "name": "vasttrafik-cards",
+  "version": "0.0.1",
+  "description": "Fetch Västtrafik cards data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krawaller/vasttrafik-cards"
+  },
+  "keywords": [
+    "västtrafik"
+  ],
+  "author": "Jacob Waller <jacob@krawaller.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krawaller/vasttrafik-cards/issues"
+  },
+  "homepage": "https://github.com/krawaller/vasttrafik-cards",
+  "dependencies": {
+    "vasttrafik-login": "~0.0.1",
+    "request": "~2.34.0",
+    "browser-request": "~0.3.1",
+    "kew": "~0.4.0"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "chai-as-promised": "~4.1.1"
+  }
+}
