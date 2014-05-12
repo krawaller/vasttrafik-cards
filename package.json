@@ -1,6 +1,6 @@
 {
   "name": "vasttrafik-cards",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Fetch Västtrafik cards data",
   "main": "index.js",
   "scripts": {
