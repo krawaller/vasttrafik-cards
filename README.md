@@ -15,9 +15,12 @@ $ npm install vasttrafik-cards
 ## API
 
 ```js
+var login = require('vasttrafik-login');
 var getCards = require('vasttrafik-cards');
-getCards({ username: '<my username>', password: '<my password>' })
-  .then(doStuff);
+
+login({ username: '<my username>', password: '<my password>' })
+  .then(getCards)
+  .then(doStuff)
 ```
 
 ## License
